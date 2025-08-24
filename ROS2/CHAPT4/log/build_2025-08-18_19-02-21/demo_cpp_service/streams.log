@@ -1,0 +1,16 @@
+[0.006s] Invoking command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nkh/ROS2/CHAPT4/build/demo_cpp_service -- -j8 -l8
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target partol_client[0m
+[0.040s] [ 50%] Built target turtle_control
+[0.045s] [ 75%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/partol_client.cpp.o[0m
+[1.248s] [01m[K/home/nkh/ROS2/CHAPT4/src/demo_cpp_service/src/partol_client.cpp:[m[K In member function ‘[01m[Krcl_interfaces::srv::SetParameters_Response_<std::allocator<void> >::SharedPtr PartolControlNode::call_set_parameters(const Parameter&)[m[K’:
+[1.248s] [01m[K/home/nkh/ROS2/CHAPT4/src/demo_cpp_service/src/partol_client.cpp:67:21:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Krcl_interfaces::srv::SetParameters_Response_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rcl_interfaces::srv::SetParameters_Response_<std::allocator<void> > >[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.248s]    67 |                     [01;31m[Kreturn[m[K;
+[1.248s]       |                     [01;31m[K^~~~~~[m[K
+[1.250s] [01m[K/home/nkh/ROS2/CHAPT4/src/demo_cpp_service/src/partol_client.cpp:[m[K In member function ‘[01m[Kvoid PartolControlNode::updata_server_param_k(double)[m[K’:
+[1.250s] [01m[K/home/nkh/ROS2/CHAPT4/src/demo_cpp_service/src/partol_client.cpp:97:24:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.250s]    97 |                 return [01;31m[Knullptr[m[K;
+[1.250s]       |                        [01;31m[K^~~~~~~[m[K
+[1.665s] gmake[2]: *** [CMakeFiles/partol_client.dir/build.make:76：CMakeFiles/partol_client.dir/src/partol_client.cpp.o] 错误 1
+[1.665s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/partol_client.dir/all] 错误 2
+[1.665s] gmake: *** [Makefile:146：all] 错误 2
+[1.667s] Invoked command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service' returned '2': AMENT_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nkh/ROS2/CHAPT4/build/demo_cpp_service -- -j8 -l8

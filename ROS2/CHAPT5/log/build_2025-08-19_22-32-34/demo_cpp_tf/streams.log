@@ -1,0 +1,50 @@
+[0.010s] Invoking command in '/home/nkh/ROS2/CHAPT5/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nkh/ROS2/CHAPT5/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --build /home/nkh/ROS2/CHAPT5/build/demo_cpp_tf -- -j8 -l8
+[0.030s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.117s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.119s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.122s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.151s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.151s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.203s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.229s] -- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.237s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.238s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.283s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.326s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.326s] -- Configured cppcheck include dirs: 
+[0.326s] -- Configured cppcheck exclude dirs and/or files: 
+[0.326s] -- Added test 'lint_cmake' to check CMake code style
+[0.327s] -- Added test 'uncrustify' to check C / C++ code style
+[0.327s] -- Configured uncrustify additional arguments: 
+[0.327s] -- Added test 'xmllint' to check XML markup files
+[0.327s] -- Configuring done
+[0.336s] -- Generating done
+[0.340s] -- Build files have been written to: /home/nkh/ROS2/CHAPT5/build/demo_cpp_tf
+[0.356s] [35m[1mConsolidate compiler generated dependencies of target static_tf_boardcaster[0m
+[0.361s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamic_tf_boardcaster.dir/src/dynamic_tf_boardcaster.cpp.o[0m
+[0.365s] [ 75%] Built target static_tf_boardcaster
+[2.599s] [100%] [32m[1mLinking CXX executable dynamic_tf_boardcaster[0m
+[2.711s] [100%] Built target dynamic_tf_boardcaster
+[2.720s] Invoked command in '/home/nkh/ROS2/CHAPT5/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nkh/ROS2/CHAPT5/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --build /home/nkh/ROS2/CHAPT5/build/demo_cpp_tf -- -j8 -l8
+[2.743s] Invoking command in '/home/nkh/ROS2/CHAPT5/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nkh/ROS2/CHAPT5/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --install /home/nkh/ROS2/CHAPT5/build/demo_cpp_tf
+[2.744s] -- Install configuration: ""
+[2.744s] -- Up-to-date: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_boardcaster
+[2.744s] -- Up-to-date: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+[2.745s] -- Installing: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+[2.745s] -- Up-to-date: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+[2.745s] -- Installing: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+[2.745s] -- Up-to-date: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+[2.745s] -- Installing: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+[2.745s] -- Up-to-date: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+[2.745s] -- Up-to-date: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+[2.745s] -- Up-to-date: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+[2.745s] -- Installing: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+[2.745s] -- Installing: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+[2.745s] -- Up-to-date: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+[2.745s] -- Up-to-date: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+[2.745s] -- Up-to-date: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+[2.745s] -- Up-to-date: /home/nkh/ROS2/CHAPT5/install/demo_cpp_tf/share/demo_cpp_tf/package.xml
+[2.745s] Invoked command in '/home/nkh/ROS2/CHAPT5/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nkh/ROS2/CHAPT5/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --install /home/nkh/ROS2/CHAPT5/build/demo_cpp_tf

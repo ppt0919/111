@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chapt4_interfaces/srv/FaceDetector.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module chapt4_interfaces {
+  module srv {
+    struct FaceDetector_Request {
+      @verbatim (language="comment", text=
+        "人脸图像")
+      sensor_msgs::msg::Image image;
+    };
+    struct FaceDetector_Response {
+      int16 number;
+
+      float use_time;
+
+      sequence<int16> top;
+
+      sequence<int16> right;
+
+      sequence<int16> bottom;
+
+      sequence<int16> left;
+    };
+  };
+};

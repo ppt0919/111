@@ -1,0 +1,2 @@
+Invoking command in '/home/nkh/ROS2/CHAPT4/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nkh/ROS2/CHAPT4/build/chapt4_interfaces -- -j8 -l8
+Invoked command in '/home/nkh/ROS2/CHAPT4/build/chapt4_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nkh/ROS2/CHAPT4/build/chapt4_interfaces -- -j8 -l8

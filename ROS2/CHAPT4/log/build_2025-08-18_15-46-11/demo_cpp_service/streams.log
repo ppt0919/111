@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/home/nkh/ROS2/CHAPT4/install/demo_cpp_service:/home/nkh/ROS2/CHAPT4/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/nkh/ROS2/CHAPT4/build/demo_cpp_service -- -j8 -l8
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.039s] [ 50%] Built target partol_client
+[0.045s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[4.758s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[5.013s] [100%] Built target turtle_control
+[5.022s] Invoked command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/home/nkh/ROS2/CHAPT4/install/demo_cpp_service:/home/nkh/ROS2/CHAPT4/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/nkh/ROS2/CHAPT4/build/demo_cpp_service -- -j8 -l8
+[5.022s] Invoking command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/home/nkh/ROS2/CHAPT4/install/demo_cpp_service:/home/nkh/ROS2/CHAPT4/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/nkh/ROS2/CHAPT4/build/demo_cpp_service
+[5.027s] -- Install configuration: ""
+[5.027s] -- Installing: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[5.029s] -- Set runtime path of "/home/nkh/ROS2/CHAPT4/install/demo_cpp_service/lib/demo_cpp_service/turtle_control" to ""
+[5.029s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/lib/demo_cpp_service/partol_client
+[5.029s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[5.029s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[5.029s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[5.029s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[5.029s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[5.030s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[5.030s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[5.030s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[5.030s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[5.030s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[5.030s] -- Installing: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[5.030s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[5.030s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[5.030s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[5.030s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[5.032s] Invoked command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/home/nkh/ROS2/CHAPT4/install/demo_cpp_service:/home/nkh/ROS2/CHAPT4/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/nkh/ROS2/CHAPT4/build/demo_cpp_service

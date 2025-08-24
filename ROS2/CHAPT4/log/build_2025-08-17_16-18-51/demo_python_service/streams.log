@@ -1,0 +1,27 @@
+[0.295s] Invoking command in '/home/nkh/ROS2/CHAPT4/src/demo_python_service': PYTHONPATH=/home/nkh/ROS2/CHAPT4/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nkh/ROS2/CHAPT4/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/nkh/ROS2/CHAPT4/build/demo_python_service/build install --record /home/nkh/ROS2/CHAPT4/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.400s] running egg_info
+[0.400s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.400s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.404s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.404s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.404s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.404s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.404s] adding license file 'LICENSE'
+[0.404s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.404s] running build
+[0.404s] running build_py
+[0.404s] copying demo_python_service/face_detect_client_node.py -> /home/nkh/ROS2/CHAPT4/build/demo_python_service/build/lib/demo_python_service
+[0.404s] running install
+[0.404s] running install_lib
+[0.404s] copying /home/nkh/ROS2/CHAPT4/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/nkh/ROS2/CHAPT4/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[0.404s] byte-compiling /home/nkh/ROS2/CHAPT4/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-310.pyc
+[0.404s] running install_data
+[0.404s] running install_egg_info
+[0.404s] removing '/home/nkh/ROS2/CHAPT4/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.406s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/nkh/ROS2/CHAPT4/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[0.407s] running install_scripts
+[0.416s] Installing face_detect_client_node script to /home/nkh/ROS2/CHAPT4/install/demo_python_service/lib/demo_python_service
+[0.417s] Installing face_detect_node script to /home/nkh/ROS2/CHAPT4/install/demo_python_service/lib/demo_python_service
+[0.417s] Installing learn_face_detect script to /home/nkh/ROS2/CHAPT4/install/demo_python_service/lib/demo_python_service
+[0.417s] writing list of installed files to '/home/nkh/ROS2/CHAPT4/build/demo_python_service/install.log'
+[0.429s] Invoked command in '/home/nkh/ROS2/CHAPT4/src/demo_python_service' returned '0': PYTHONPATH=/home/nkh/ROS2/CHAPT4/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nkh/ROS2/CHAPT4/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/nkh/ROS2/CHAPT4/build/demo_python_service/build install --record /home/nkh/ROS2/CHAPT4/build/demo_python_service/install.log --single-version-externally-managed install_data

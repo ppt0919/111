@@ -1,0 +1,12 @@
+[0.011s] Invoking command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nkh/ROS2/CHAPT4/build/demo_cpp_service -- -j8 -l8
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.041s] [ 50%] Built target partol_client
+[0.043s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[1.304s] [01m[K/home/nkh/ROS2/CHAPT4/src/demo_cpp_service/src/turtle_control.cpp:[m[K In lambda function:
+[1.304s] [01m[K/home/nkh/ROS2/CHAPT4/src/demo_cpp_service/src/turtle_control.cpp:42:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+[1.304s]    42 |                     [01;31m[Kif[m[K(parameter.get_name()=="k")
+[1.304s]       |                     [01;31m[K^~[m[K
+[2.814s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+[2.815s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/turtle_control.dir/all] 错误 2
+[2.815s] gmake: *** [Makefile:146：all] 错误 2
+[2.817s] Invoked command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service' returned '2': AMENT_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nkh/ROS2/CHAPT4/build/demo_cpp_service -- -j8 -l8

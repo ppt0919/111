@@ -1,0 +1,8 @@
+[0.006s] Invoking command in '/home/nkh/ROS2/CHAPT3_1/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nkh/ROS2/CHAPT3_1/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/nkh/ROS2/CHAPT3_1/topic_ws/install/demo_cpp_topic
+[0.015s] [31mCMake Error at CMakeLists.txt:29:
+[0.016s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.016s]   "install{TARGETS".
+[0.016s] 
+[0.016s] [0m
+[0.017s] -- Configuring incomplete, errors occurred!
+[0.018s] Invoked command in '/home/nkh/ROS2/CHAPT3_1/topic_ws/build/demo_cpp_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nkh/ROS2/CHAPT3_1/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/nkh/ROS2/CHAPT3_1/topic_ws/install/demo_cpp_topic

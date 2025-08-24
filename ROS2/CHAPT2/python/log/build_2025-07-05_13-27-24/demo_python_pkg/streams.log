@@ -1,0 +1,38 @@
+[0.363s] Invoking command in '/home/nkh/ROS2/CHAPT2/python/demo_python_pkg': PYTHONPATH=/home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/build install --record /home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.506s] running egg_info
+[0.506s] creating ../build/demo_python_pkg/demo_python_pkg.egg-info
+[0.506s] writing ../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.507s] writing dependency_links to ../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.507s] writing entry points to ../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.507s] writing requirements to ../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.507s] writing top-level names to ../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.507s] writing manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.508s] reading manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.508s] adding license file 'LICENSE'
+[0.508s] writing manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.508s] running build
+[0.509s] running build_py
+[0.511s] creating /home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/build
+[0.511s] creating /home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/build/lib
+[0.511s] creating /home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.511s] copying demo_python_pkg/__init__.py -> /home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.511s] copying demo_python_pkg/python_node.py -> /home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.511s] running install
+[0.511s] running install_lib
+[0.511s] creating /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.511s] copying /home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.511s] copying /home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/build/lib/demo_python_pkg/python_node.py -> /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.511s] byte-compiling /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__init__.py to __init__.cpython-310.pyc
+[0.511s] byte-compiling /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/python_node.py to python_node.cpython-310.pyc
+[0.511s] running install_data
+[0.511s] creating /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/share/ament_index
+[0.511s] creating /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/share/ament_index/resource_index
+[0.511s] creating /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.511s] copying resource/demo_python_pkg -> /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.511s] copying package.xml -> /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/share/demo_python_pkg
+[0.511s] running install_egg_info
+[0.513s] Copying ../build/demo_python_pkg/demo_python_pkg.egg-info to /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.513s] running install_scripts
+[0.527s] Installing python_node script to /home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/lib/demo_python_pkg
+[0.527s] writing list of installed files to '/home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/install.log'
+[0.540s] Invoked command in '/home/nkh/ROS2/CHAPT2/python/demo_python_pkg' returned '0': PYTHONPATH=/home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nkh/ROS2/CHAPT2/python/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/build install --record /home/nkh/ROS2/CHAPT2/python/build/demo_python_pkg/install.log --single-version-externally-managed install_data

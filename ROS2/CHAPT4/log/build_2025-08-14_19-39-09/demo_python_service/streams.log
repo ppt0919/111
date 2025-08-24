@@ -1,0 +1,17 @@
+[0.282s] Invoking command in '/home/nkh/ROS2/CHAPT4/src/demo_python_service': AMENT_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces LD_LIBRARY_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nkh/ROS2/CHAPT4/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nkh/ROS2/CHAPT4/install/demo_python_service/lib/python3.10/site-packages:/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/nkh/ROS2/CHAPT4/build/demo_python_service/build install --record /home/nkh/ROS2/CHAPT4/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.407s] running egg_info
+[0.407s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.408s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.408s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.408s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.408s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.409s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.409s] adding license file 'LICENSE'
+[0.410s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.410s] running build
+[0.410s] running build_py
+[0.410s] running install
+[0.410s] running install_lib
+[0.411s] running install_data
+[0.411s] error: can't copy 'resource/image.jpg': doesn't exist or not a regular file
+[0.422s] Invoked command in '/home/nkh/ROS2/CHAPT4/src/demo_python_service' returned '1': AMENT_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces LD_LIBRARY_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nkh/ROS2/CHAPT4/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nkh/ROS2/CHAPT4/install/demo_python_service/lib/python3.10/site-packages:/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/nkh/ROS2/CHAPT4/build/demo_python_service/build install --record /home/nkh/ROS2/CHAPT4/build/demo_python_service/install.log --single-version-externally-managed install_data

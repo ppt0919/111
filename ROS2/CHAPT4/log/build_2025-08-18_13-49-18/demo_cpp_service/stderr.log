@@ -1,0 +1,12 @@
+[31mCMake Error at CMakeLists.txt:18 (add_executable):
+  add_executable cannot create target "turtle_control" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/nkh/ROS2/CHAPT4/src/demo_cpp_service".
+  See documentation for policy CMP0002 for more details.
+
+[0m
+[31mCMake Error at CMakeLists.txt:33 (install):
+  install TARGETS given target "partol_client" which does not exist.
+
+[0m
+gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

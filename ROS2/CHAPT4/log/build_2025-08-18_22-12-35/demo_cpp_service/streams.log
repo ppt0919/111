@@ -1,0 +1,56 @@
+[0.007s] Invoking command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nkh/ROS2/CHAPT4/build/demo_cpp_service -- -j8 -l8
+[0.047s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.166s] -- Found chapt4_interfaces: 0.0.0 (/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.204s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.207s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.218s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.341s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.385s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.388s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.468s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.511s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.552s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.600s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.600s] -- Configured cppcheck include dirs: 
+[0.600s] -- Configured cppcheck exclude dirs and/or files: 
+[0.600s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.601s] -- Added test 'lint_cmake' to check CMake code style
+[0.602s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.603s] -- Added test 'uncrustify' to check C / C++ code style
+[0.603s] -- Configured uncrustify additional arguments: 
+[0.603s] -- Added test 'xmllint' to check XML markup files
+[0.605s] -- Configuring done
+[0.621s] -- Generating done
+[0.624s] -- Build files have been written to: /home/nkh/ROS2/CHAPT4/build/demo_cpp_service
+[0.640s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.641s] [35m[1mConsolidate compiler generated dependencies of target partol_client[0m
+[0.653s] [ 25%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/partol_client.cpp.o[0m
+[0.658s] [ 75%] Built target turtle_control
+[4.553s] [100%] [32m[1mLinking CXX executable partol_client[0m
+[4.699s] [100%] Built target partol_client
+[4.706s] Invoked command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nkh/ROS2/CHAPT4/build/demo_cpp_service -- -j8 -l8
+[4.707s] Invoking command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nkh/ROS2/CHAPT4/build/demo_cpp_service
+[4.711s] -- Install configuration: ""
+[4.712s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[4.712s] -- Installing: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/lib/demo_cpp_service/partol_client
+[4.713s] -- Set runtime path of "/home/nkh/ROS2/CHAPT4/install/demo_cpp_service/lib/demo_cpp_service/partol_client" to ""
+[4.713s] -- Installing: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/launch
+[4.713s] -- Installing: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/launch/demo_launch.py
+[4.713s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[4.713s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[4.713s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[4.713s] -- Installing: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[4.713s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[4.713s] -- Installing: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[4.713s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[4.713s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[4.713s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[4.714s] -- Installing: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[4.714s] -- Installing: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[4.714s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[4.714s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[4.714s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[4.714s] -- Up-to-date: /home/nkh/ROS2/CHAPT4/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[4.715s] Invoked command in '/home/nkh/ROS2/CHAPT4/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nkh/ROS2/CHAPT4/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nkh/ROS2/CHAPT4/build/demo_cpp_service

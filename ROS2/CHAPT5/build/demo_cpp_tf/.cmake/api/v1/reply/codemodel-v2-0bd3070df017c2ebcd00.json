@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5ac63e84df29feceeabb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo_cpp_tf",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_cpp_tf_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_cpp_tf_uninstall-c9a115c49f79d01aaa02.json",
+					"name" : "demo_cpp_tf_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_tf_boardcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_tf_boardcaster-837ead657c1190b03766.json",
+					"name" : "dynamic_tf_boardcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static_tf_boardcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_tf_boardcaster-f353b0bc7c3f153ee085.json",
+					"name" : "static_tf_boardcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf_listener-a0e7a15061effcfaed6f.json",
+					"name" : "tf_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-78ed33a310b47db6e604.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nkh/ROS2/CHAPT5/build/demo_cpp_tf",
+		"source" : "/home/nkh/ROS2/CHAPT5/src/demo_cpp_tf"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
